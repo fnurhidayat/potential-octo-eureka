@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node http-server",
     "serve-html": "node http-server-html",
-    "serve-html-with-routing": "node http-server-html-with-routing"
+    "serve-html-with-routing": "node http-server-html-with-routing",
+    "serve-json": "node http-server-json",
+    "serve-json-with-request-handler": "node http-server-json-with-request-handler"
   },
   "dependencies": {
     "@typed/http": "^8.8.0"

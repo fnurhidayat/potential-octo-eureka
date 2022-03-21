@@ -1,0 +1,14 @@
+{
+  "name": "binar-sme-nodejs-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node http-server",
+    "serve-html": "node http-server-html",
+    "serve-html-with-routing": "node http-server-html-with-routing"
+  },
+  "dependencies": {
+    "@typed/http": "^8.8.0"
+  }
+}
